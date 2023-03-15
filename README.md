@@ -1,5 +1,6 @@
 # Node-JS
-Here we will be going to note down all node JS related Note what we are learning in my journy
+Here we will be going to note down all node JS related Note what we are learning in my journey. 
+For Start using node js [Download](https://nodejs.org/en/) it. Download recomended version.
 # Short Notes
 - `require('fs')` => use to import fs in current program
 - `fs = require('fs')` => for re use fs
