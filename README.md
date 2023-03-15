@@ -11,3 +11,12 @@ Here we will be going to note down all node JS related Note what we are learning
 - `fs.renameSync` => for renaming file 
 - `fs.rmdirSync` => for removing directory
 - `fs.unlinkSync` => for removing or delete file
+
+###  Asynchronous Way
+- `fs.mkdir` => crete directory
+- `fs.writeFile` => create and write in file
+- `fs.appendFiel` => add text in next line or end of existing file
+- `fs.readFiel` => for reading file (we get buffer data to get string use `utf-8`)
+- `fs.rename` => for renaming file 
+- `fs.rmdir` => for removing directory
+- `fs.unlink` => for removing or delete file
