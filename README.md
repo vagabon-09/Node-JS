@@ -28,3 +28,4 @@ For Start using node js [Download](https://nodejs.org/en/) it. Download recomend
 - `path.basename()` => for getting file name
 - `path.parse()` => for getting all data about file in a object
 - `parthParseObject`.`objectType` => for getting data form object 
+for more information click [here](https://nodejs.org/dist/latest-v18.x/docs/api/path.html)
