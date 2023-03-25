@@ -21,3 +21,10 @@ For Start using node js [Download](https://nodejs.org/en/) it. Download recomend
 - `fs.rename` => for renaming file 
 - `fs.rmdir` => for removing directory
 - `fs.unlink` => for removing or delete file
+
+### Path Modules
+- `path.dirname()` => for getting file location
+- `path.extname()` => for getting file extention type
+- `path.basename()` => for getting file name
+- `path.parse()` => for getting all data about file in a object
+- `parthParseObject`.`objectType` => for getting data form object 
