@@ -30,4 +30,9 @@ For Start using node js [Download](https://nodejs.org/en/) it. Download recomend
 - `parthParseObject`.`objectType` => for getting data form object.
 
 
-For more information click [here](https://nodejs.org/dist/latest-v18.x/docs/api/path.html)
+  For more information click [here](https://nodejs.org/dist/latest-v18.x/docs/api/path.html)
+  
+ ### Import Export Module
+ - `module.exports={name of the functions}` => You can export modules. You can export multiple funciton by separating `,` and here `exports` will be a object
+ - `const variable = require("path of the module")` => By requiring you can use modules in desire file
+ - `const {name of the modules} = require("path of the modules)` => Using this method you can access all the modules just by their name
