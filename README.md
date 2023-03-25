@@ -36,3 +36,9 @@ For Start using node js [Download](https://nodejs.org/en/) it. Download recomend
  - `module.exports={name of the functions}` => You can export modules. You can export multiple funciton by separating `,` and here `exports` will be a object
  - `const variable = require("path of the module")` => By requiring you can use modules in desire file
  - `const {name of the modules} = require("path of the modules)` => Using this method you can access all the modules just by their name
+
+### Node Package Manager
+- `npm init` => to install npm use this command
+- `npm install module_name` or `npm i module_name` => use to install new module 
+- `npm install module_name@version` => use to install with version
+
