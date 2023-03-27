@@ -37,6 +37,14 @@ For Start using node js [Download](https://nodejs.org/en/) it. Download recomend
  - `const variable = require("path of the module")` => By requiring you can use modules in desire file
  - `const {name of the modules} = require("path of the modules)` => Using this method you can access all the modules just by their name
 
+## Node module
+Some importent notemodules 
+ - [chalk](https://www.npmjs.com/package/chalk)
+ - [NodeMon](https://www.npmjs.com/package/nodemon)
+ - [Validator](https://www.npmjs.com/package/validator)
+
+if you like to explore more module click [here](https://www.npmjs.com/)
+
 ### Node Package Manager
 - `npm init` => to install npm use this command
 - `npm install module_name` or `npm i module_name` => use to install new module 
