@@ -42,3 +42,8 @@ For Start using node js [Download](https://nodejs.org/en/) it. Download recomend
 - `npm install module_name` or `npm i module_name` => use to install new module 
 - `npm install module_name@version` => use to install with version
 
+### Http Server
+- First require `http` module (`http`)
+- `createServer((req,res)=>{// Manage request})` use to create server
+- `req.end()` use to manage request
+- `server.listen(port,"localhost",()=>{responserd})` user to listen server response , here in place of port you sould place a port number and in place of localhost        place you need to place ip number normaly it is 127.0.0.1
