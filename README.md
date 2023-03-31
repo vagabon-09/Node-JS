@@ -57,3 +57,7 @@ if you like to explore more module click [here](https://www.npmjs.com/)
 - `createServer((req,res)=>{// Manage request})` use to create server
 - `req.end()` use to manage request
 - `server.listen(port,"localhost",()=>{responserd})` user to listen server response , here in place of port you sould place a port number and in place of localhost        place you need to place ip number normaly it is 127.0.0.1
+- `localhost:yourport_number` by using this url you can see your server routing pages
+- `createServer((req,res)=>{});` here `req.url` lisent the url in server
+- `res.end("content")` is used to show content in webpage
+- `res.writeHead(404,{"content-type":"text/html"});` is used to show status code of the page , also it shows the page type liek is it txt or html
