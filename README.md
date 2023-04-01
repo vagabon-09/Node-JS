@@ -6,7 +6,8 @@ For Start using node js [Download](https://nodejs.org/en/) it. Download recomend
 # Short Notes
 - `require('fs')` => use to import fs in current program
 - `fs = require('fs')` => for re use fs
-###  Synchronous Way
+###  Synchronous 
+``If you use Synchronous way then , first Synchronous method will execute then the other part will execute``
 - `fs.mkdirSync` => crete directory
 - `fs.writeFileSync` => create and write in file
 - `fs.appendFielSync` => add text in next line or end of existing file
