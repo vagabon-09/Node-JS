@@ -10,8 +10,8 @@ For Start using node js [Download](https://nodejs.org/en/) it. Download recomend
 ``If you use Synchronous way then , first Synchronous method will execute then the other part will execute``
 - `fs.mkdirSync` => crete directory
 - `fs.writeFileSync` => create and write in file
-- `fs.appendFielSync` => add text in next line or end of existing file
-- `fs.readFielSync` => for reading file (we get buffer data to get string use `utf-8`)
+- `fs.appendFileSync` => add text in next line or end of existing file
+- `fs.readFileSync` => for reading file (we get buffer data to get string use `utf-8`)
 - `fs.renameSync` => for renaming file 
 - `fs.rmdirSync` => for removing directory
 - `fs.unlinkSync` => for removing or delete file
@@ -62,3 +62,9 @@ if you like to explore more module click [here](https://www.npmjs.com/)
 - `createServer((req,res)=>{});` here `req.url` lisent the url in server
 - `res.end("content")` is used to show content in webpage
 - `res.writeHead(404,{"content-type":"text/html"});` is used to show status code of the page , also it shows the page type liek is it txt or html
+
+### JSON
+- `JSON.stringify()` => it is used to convert object to json
+- `JSON.parse()` => use to convert json to object
+- `object[i].name` => if you want to access a particular data from a simple object then you can use this eway(here i is index value)
+- `object.name[i].id` => if you want ot access data form a nested object then you can use this method (here i is index value)
