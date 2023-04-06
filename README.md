@@ -69,3 +69,5 @@ if you like to explore more module click [here](https://www.npmjs.com/)
 - `JSON.parse()` => use to convert json to object
 - `object[i].name` => if you want to access a particular data from a simple object then you can use this eway(here i is index value)
 - `object.name[i].id` => if you want ot access data form a nested object then you can use this method (here i is index value)
+
+### Event Modules
