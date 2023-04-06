@@ -78,7 +78,7 @@ Event module is basicaly is a Event handeling module which is use to handle even
 - `event.on("checkEvent",()=>{// your resposend})` using this function we can handle event and in call back function we need to add responsed and you must remember **This function should be placed before emit the event**
 
 ### Stream
-`stream = fs.createReadStream("data.txt")` we can import stream function
-`stream.on("data",(chunkdata)=>{// code here})` to start stream on and it and to write data you should call `data` event
-`res.write(chunkdata)` use to write data and here `res` is the response of the server
-`stream.on("end",()=>{res.end();})` this method is used to send responsed to the server
+- `stream = fs.createReadStream("data.txt")` we can import stream function
+- `stream.on("data",(chunkdata)=>{// code here})` to start stream on and it and to write data you should call `data` event
+- `res.write(chunkdata)` use to write data and here `res` is the response of the server
+- `stream.on("end",()=>{res.end();})` this method is used to send responsed to the server
