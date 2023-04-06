@@ -71,3 +71,8 @@ if you like to explore more module click [here](https://www.npmjs.com/)
 - `object.name[i].id` => if you want ot access data form a nested object then you can use this method (here i is index value)
 
 ### Event Modules
+Event module is basicaly is a Event handeling module which is use to handle events in your website
+- `const EventModule = require('events')` in this way we can import events module , you must be remember first it create a class
+- `const event = new EventModule() ` in this way we need to make a object and using this object we can access all function of the module
+- `event.emit("checkEvent")` this is the way to create a event , also you must remember you need to add event name like `checkEvent`
+- `event.on("checkEvent",()=>{// your resposend})` using this function we can handle event and in call back function we need to add responsed and you must remember *** This function should be placed before emit the event ***
