@@ -82,3 +82,4 @@ Event module is basicaly is a Event handeling module which is use to handle even
 - `stream.on("data",(chunkdata)=>{// code here})` to start stream on and it and to write data you should call `data` event
 - `res.write(chunkdata)` use to write data and here `res` is the response of the server
 - `stream.on("end",()=>{res.end();})` this method is used to send responsed to the server
+- `stream.pipe(res)` => using this method you can send responsed data to the server and show it live
